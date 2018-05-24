@@ -1,0 +1,9 @@
+<%= inspect @tally %>
+
+<p>
+    Turns left <%= @tally.turns_left %>
+</p>
+
+<p>
+    Words so far <%= @tally.letters |> Enum.join(" ") %>
+</p>
