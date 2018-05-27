@@ -14,3 +14,7 @@
     <%= submit("Make next move") %>
     <% end) %>
 <% end %>
+
+<p>
+    Letters used: <%= @tally.used |> Enum.join(" ") %>
+</p>
