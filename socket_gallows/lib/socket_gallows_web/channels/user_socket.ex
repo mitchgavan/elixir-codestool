@@ -2,7 +2,7 @@ defmodule SocketGallowsWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  channel "hangman:*", SocketGallowsWeb.HangmanChannel
+  channel "hangman:*", SocketGallows.Web.HangmanChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
